@@ -4,48 +4,64 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>This my website - thanhnc1201.github.io</title>
+		<!-- Load libraby bootstrap famewrok -->
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/style.css">
-		<link rel="stylesheet" href="css/style.scss"> 
-		
+		<!-- Load font -->
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=cyrillic,cyrillic-ext,latin-ext,vietnamese" rel="stylesheet">
+
 	</head>
 	<body>
-		<nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
-			<div class="container">
-				<a class="navbar-brand" href="#">i'm thanhNC</a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
+		<div class="navbar__bgcolor"> <!-- Begin top__header -->
+			<nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4 fixed-top navbar__menu"> <!-- Begin Navbar -->
+				<div class="container">
+					<a class="navbar-brand" href="#">i'm thanhNc</a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
 
-				<div class="collapse navbar-collapse" id="navbarCollapse">
-					<ul class="navbar-nav ml-auto">
-						<li class="nav-item active">
-							<a class="nav-link" href="#"><span class="sr-only"></span></a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Link</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Link</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Link</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Link</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Link 1</a>
-						</li>
-
-					</ul>
+					<div class="collapse navbar-collapse" id="navbarCollapse">
+						<ul class="navbar-nav ml-auto">
+							<li class="nav-item active">
+								<a class="nav-link" href="#"><span class="sr-only"></span></a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">home</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">about</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">resume</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">portfolio</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">contact</a>
+							</li>
+						</ul>
+					</div>
 				</div>
-			</div>
-		</nav>
-		</div>
-			<b>Thành Nguyễn S2 Trương Nhật Linh</b>
-	</body>
-	<script type="text/javascript" src="js/jquery.js" ></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="js/mỵjs.js" ></script>
-	</html>
+			</nav> <!-- End Navbars -->
+
+			<!-- Begin Banner -->
+			<div class="container navbar__banner">
+				<div class="row">
+					<div class="col-sm text-sm-center">
+						<h4>Hi my name is</h4>
+						<h2>Thanh nc</h2>
+						<strong>font-end developer & design </strong>
+						<div class="btn__hire">
+							<a href="" class="btn btn-outline-secondary btn__hire--me">Hire me</a>
+						</div>
+					</div>
+				</div>
+				<!-- End Banner -->
+			</div> <!-- End navbar__bgcolor -->
+		</body>
+		<!-- Load library JS & Jquery Bootstrap -->
+		<script type="text/javascript" src="js/jquery.js" ></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/mỵjs.js" ></script>
+		</html>
