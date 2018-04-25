@@ -100,4 +100,35 @@ body, html {
 .resume {
   background-color: #fff; }
 
+@media (max-width: 576px) {
+  .navbar__info h4 {
+    padding-top: 70px; }
+
+  .nav-link {
+    background-color: #9e9b9b47;
+    border: 1px solid #9e9b9b47; }
+    .nav-link:first-child {
+      border-top: none !important; }
+
+  .about {
+    height: 860px; }
+    .about .about__avatar img {
+      padding-top: 5px; }
+    .about .about__paragraph {
+      position: relative; }
+      .about .about__paragraph h2 {
+        padding-top: 0;
+        font-size: 30px; }
+      .about .about__paragraph p {
+        margin-bottom: 0px; }
+        .about .about__paragraph p b {
+          font-size: 20px !important;
+          padding-bottom: 0px; }
+    .about .about__social {
+      font-size: 14px;
+      position: absolute !important;
+      top: 104% !important;
+      left: 39% !important;
+      letter-spacing: 5px !important; } }
+
 /*# sourceMappingURL=style.css.map */

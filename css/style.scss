@@ -126,3 +126,51 @@ $font: Montserrat, sans-serif;
 .resume{
     background-color: #fff;
 }
+
+@media (max-width:576px)
+{
+    .navbar__info{
+        h4{
+            padding-top:70px;
+        }
+    }
+    .nav-link{
+        background-color: #9e9b9b47;
+        border:1px solid #9e9b9b47;
+        &:first-child{
+            border-top:none !important;
+        }
+    }
+    
+    .about{
+        height: 860px;
+        .about__avatar{
+            img{
+                
+                padding-top: 5px;
+            }
+        }
+         .about__paragraph{
+             position: relative;
+             h2{
+                 padding-top: 0;
+                 font-size: 30px;
+             }
+             p{  margin-bottom: 0px;
+                 b{
+                     font-size: 20px !important;
+                     padding-bottom: 0px;
+                 }
+             }
+        }
+        .about__social{
+            font-size: 14px;
+            position: absolute !important;
+            top: 104% !important;
+            left: 39% !important;
+            letter-spacing: 5px !important;
+        }
+        
+    }
+    
+}
