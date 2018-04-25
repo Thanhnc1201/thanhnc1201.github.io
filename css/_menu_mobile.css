@@ -1,0 +1,11 @@
+@media (max-width: 576px) {
+  .navbar__info h4 {
+    padding-top: 50px; }
+
+  .nav-link {
+    background-color: #9e9b9b47;
+    border: 1px solid #9e9b9b47; }
+    .nav-link:first-child {
+      border-top: none !important; } }
+
+/*# sourceMappingURL=_menu_mobile.css.map */
