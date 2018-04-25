@@ -19,12 +19,13 @@ $font: Montserrat, sans-serif;
         background-color:transparent !important;
         .navbar-brand{
             @include navbar_top();
+            text-shadow: 0px 0px 10px #fefefe;
             text-transform:none;
             letter-spacing:3px;
             font-size: 25px;
             transition: all 0.6s;
             &:hover{
-                text-shadow: 10px 0px 50px #fefefe;
+                text-shadow: 2px 2px 50px #fefefe;
                 }
             }
         ul{
@@ -82,4 +83,46 @@ $font: Montserrat, sans-serif;
             }
         }
     }
+}
+.about{
+    background-color: #000;
+    .about__paragraph{
+
+        h2{
+            font-family: $font;
+            font-size: 35px;
+            text-transform: uppercase;
+            font-weight: bold;
+            color: #f4f4f4;
+            padding-top: 75px;
+        }
+        p{
+            b{
+                text-transform: uppercase;
+                font-family: $font;
+                font-size: 22px;
+                color: #f4f4f4;
+                
+            }
+        }
+        p{
+            font-family: $font;
+            font-size: 16px;
+            line-height: 32px;
+            color: #f4f4f4;
+        }
+        position: relative;
+        .about__social{
+            a{
+                color:#fff;
+                letter-spacing: 5px;
+            }
+            position: absolute;
+            left: 16px;
+            top: 444px;
+        }
+    }
+}
+.resume{
+    background-color: #fff;
 }

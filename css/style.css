@@ -20,12 +20,13 @@ body, html {
       color: #e2e2e2;
       font-size: 16px;
       font-family: Montserrat, sans-serif;
+      text-shadow: 0px 0px 10px #fefefe;
       text-transform: none;
       letter-spacing: 3px;
       font-size: 25px;
       transition: all 0.6s; }
       .navbar__bgcolor .navbar__menu .navbar-brand:hover {
-        text-shadow: 10px 0px 50px #fefefe; }
+        text-shadow: 2px 2px 50px #fefefe; }
     .navbar__bgcolor .navbar__menu ul li .nav-link {
       text-transform: uppercase;
       color: #e2e2e2;
@@ -66,5 +67,37 @@ body, html {
         box-shadow: 10px 0px 50px #fefefe;
         background-color: transparent !important;
         font-weight: 700; }
+
+.about {
+  background-color: #000; }
+  .about .about__paragraph {
+    position: relative; }
+    .about .about__paragraph h2 {
+      font-family: Montserrat, sans-serif;
+      font-size: 35px;
+      text-transform: uppercase;
+      font-weight: bold;
+      color: #f4f4f4;
+      padding-top: 75px; }
+    .about .about__paragraph p b {
+      text-transform: uppercase;
+      font-family: Montserrat, sans-serif;
+      font-size: 22px;
+      color: #f4f4f4; }
+    .about .about__paragraph p {
+      font-family: Montserrat, sans-serif;
+      font-size: 16px;
+      line-height: 32px;
+      color: #f4f4f4; }
+    .about .about__paragraph .about__social {
+      position: absolute;
+      left: 16px;
+      top: 444px; }
+      .about .about__paragraph .about__social a {
+        color: #fff;
+        letter-spacing: 5px; }
+
+.resume {
+  background-color: #fff; }
 
 /*# sourceMappingURL=style.css.map */
