@@ -67,7 +67,8 @@ body, html {
         font-weight: 700; }
 
 .about {
-  background-color: #000; }
+  background-color: #000; 
+}
   .about .about__paragraph {
     position: relative; }
     .about .about__paragraph h2 {
