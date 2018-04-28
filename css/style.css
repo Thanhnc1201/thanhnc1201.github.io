@@ -98,37 +98,4 @@ body, html {
 .resume {
   background-color: #fff; }
 
-@media (max-width: 576px) {
-  .navbar__bgcolor .navbar__info h4 {
-    padding-top: 70px; }
-  .navbar__bgcolor .navbar__menu ul li .nav-link {
-    font-weight: 600;
-    background-color: rgba(87, 105, 117, 0.6);
-    border: 1px solid #2d1f1f9e; }
-    .navbar__bgcolor .navbar__menu ul li .nav-link:first-child {
-      border-top: none !important; }
-    .navbar__bgcolor .navbar__menu ul li .nav-link:hover:before {
-      content: "";
-      background-color: #9e9b9b00; }
-  .navbar__bgcolor .about {
-    height: 900px; }
-    .navbar__bgcolor .about .about__avatar img {
-      padding-top: 5px; }
-    .navbar__bgcolor .about .about__paragraph {
-      position: relative; }
-      .navbar__bgcolor .about .about__paragraph h2 {
-        padding-top: 0;
-        font-size: 30px; }
-      .navbar__bgcolor .about .about__paragraph p {
-        margin-bottom: 0px; }
-        .navbar__bgcolor .about .about__paragraph p b {
-          font-size: 20px !important;
-          padding-bottom: 0px; }
-    .navbar__bgcolor .about .about__social {
-      font-size: 14px;
-      position: absolute !important;
-      top: 104% !important;
-      left: 39% !important;
-      letter-spacing: 5px !important; } }
-
 /*# sourceMappingURL=style.css.map */
