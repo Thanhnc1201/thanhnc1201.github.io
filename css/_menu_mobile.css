@@ -1,28 +1,30 @@
 @media (max-width: 576px) {
-  .navbar__info h4 {
+  .navbar__bgcolor .navbar__info h4 {
     padding-top: 70px; }
-
-  .nav-link {
-    background-color: #9e9b9b47;
-    border: 1px solid #9e9b9b47; }
-    .nav-link:first-child {
+  .navbar__bgcolor .navbar__menu ul li .nav-link {
+    font-weight: 600;
+    background-color: rgba(87, 105, 117, 0.6);
+    border: 1px solid #2d1f1f9e; }
+    .navbar__bgcolor .navbar__menu ul li .nav-link:first-child {
       border-top: none !important; }
-
-  .about {
-    height: 860px; }
-    .about .about__avatar img {
+    .navbar__bgcolor .navbar__menu ul li .nav-link:hover:before {
+      content: "";
+      background-color: #9e9b9b00; }
+  .navbar__bgcolor .about {
+    height: 900px; }
+    .navbar__bgcolor .about .about__avatar img {
       padding-top: 5px; }
-    .about .about__paragraph {
+    .navbar__bgcolor .about .about__paragraph {
       position: relative; }
-      .about .about__paragraph h2 {
+      .navbar__bgcolor .about .about__paragraph h2 {
         padding-top: 0;
         font-size: 30px; }
-      .about .about__paragraph p {
+      .navbar__bgcolor .about .about__paragraph p {
         margin-bottom: 0px; }
-        .about .about__paragraph p b {
+        .navbar__bgcolor .about .about__paragraph p b {
           font-size: 20px !important;
           padding-bottom: 0px; }
-    .about .about__social {
+    .navbar__bgcolor .about .about__social {
       font-size: 14px;
       position: absolute !important;
       top: 104% !important;
