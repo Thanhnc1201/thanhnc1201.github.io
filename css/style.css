@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&subset=cyrillic,cyrillic-ext,latin-ext,vietnamese");
+@import url("_menu_mobile.scss");
 * {
   margin: 0;
   padding: 0; }
@@ -67,8 +68,7 @@ body, html {
         font-weight: 700; }
 
 .about {
-  background-color: #000; 
-}
+  background-color: #000; }
   .about .about__paragraph {
     position: relative; }
     .about .about__paragraph h2 {
