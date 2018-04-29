@@ -29,6 +29,7 @@ body, html {
       text-transform: uppercase;
       color: #e2e2e2;
       font-size: 16px;
+      font-weight: 500;
       position: relative; }
       .navbar__bgcolor .navbar__menu ul li .nav-link:hover {
         text-shadow: 2x 1px 20px #fefefe !important; }
@@ -112,8 +113,14 @@ body, html {
   .resume .graduation__highscholl {
     text-transform: uppercase;
     padding-top: 68px; }
+    .resume .graduation__highscholl .highschool__info {
+      padding: 0;
+      margin: 0; }
   .resume .graduation__university {
     padding-top: 79px; }
+    .resume .graduation__university .university__info {
+      padding: 0;
+      margin: 0; }
   .resume .skill .skill__desgin {
     padding-top: 68px;
     text-transform: uppercase; }
@@ -121,6 +128,14 @@ body, html {
 .portfolio {
   padding-top: 54px;
   background-color: #171717; }
+  .portfolio .portfolio__tittle h2 {
+    font-family: Montserrat, sans-serif;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #ffffff; }
+  .portfolio .portfolio__image {
+    padding-top: 112px; }
 
 .slider .carousel-inner .carousel-item {
   position: relative; }
@@ -133,5 +148,46 @@ body, html {
       font-size: 24px; }
     .slider .carousel-inner .carousel-item .carousel-caption img {
       height: 150px; }
+
+.getInTouch {
+  padding-top: 102px; }
+  .getInTouch .getintouch__tittle h2 {
+    font-family: Montserrat, sans-serif;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: bold; }
+  .getInTouch .getintouch__infor {
+    padding-top: 98px; }
+  .getInTouch .map__market h3, .getInTouch .mobie__alt h3, .getInTouch .envelope h3 {
+    font-size: 25px;
+    color: black;
+    text-transform: uppercase; }
+  .getInTouch .map__market p, .getInTouch .mobie__alt p, .getInTouch .envelope p {
+    font-size: 15px;
+    text-transform: uppercase; }
+  .getInTouch .getintouch__form button {
+    text-transform: uppercase; }
+  .getInTouch .getintouch__form input, .getInTouch .getintouch__form textarea {
+    padding: 10px 10px;
+    display: block;
+    width: 100%;
+    border: 2px solid #7f7f7f; }
+  .getInTouch .getintouch__form input:nth-child(2) {
+    margin-top: 102px; }
+  .getInTouch .getintouch__form textarea {
+    margin-top: 102px; }
+  .getInTouch .getintouch__form input[placeholder] {
+    text-transform: uppercase;
+    font-size: 12px; }
+
+.footer {
+  height: 50px;
+  background-color: #303030; }
+  .footer .footer__copywrite i {
+    color: #fff;
+    line-height: 50px; }
+  .footer .footer__social i {
+    color: #fff;
+    line-height: 50px; }
 
 /*# sourceMappingURL=style.css.map */
