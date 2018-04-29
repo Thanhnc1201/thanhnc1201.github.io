@@ -5,7 +5,8 @@
 
 body, html {
   width: 100%;
-  height: 100%; }
+  height: 100%;
+  font-family: Montserrat, sans-serif; }
 
 .navbar__bgcolor {
   background: url("../images/bgheader.png");
@@ -19,7 +20,6 @@ body, html {
       text-transform: uppercase;
       color: #e2e2e2;
       font-size: 16px;
-      font-family: Montserrat, sans-serif;
       text-shadow: 0px 0px 10px #fefefe;
       text-transform: none;
       letter-spacing: 3px;
@@ -29,7 +29,6 @@ body, html {
       text-transform: uppercase;
       color: #e2e2e2;
       font-size: 16px;
-      font-family: Montserrat, sans-serif;
       position: relative; }
       .navbar__bgcolor .navbar__menu ul li .nav-link:hover {
         text-shadow: 2x 1px 20px #fefefe !important; }
@@ -47,8 +46,7 @@ body, html {
   .navbar__bgcolor .navbar__banner {
     padding-top: 242px;
     color: #e2e2e2;
-    text-transform: uppercase;
-    font-family: Montserrat, sans-serif; }
+    text-transform: uppercase; }
     .navbar__bgcolor .navbar__banner h4 {
       font-size: 20px; }
     .navbar__bgcolor .navbar__banner h2 {
@@ -68,6 +66,8 @@ body, html {
 
 .about {
   background-color: #000; }
+  .about .about__avatar {
+    padding-top: 75px; }
   .about .about__paragraph {
     position: relative; }
     .about .about__paragraph h2 {
@@ -79,11 +79,9 @@ body, html {
       padding-top: 75px; }
     .about .about__paragraph p b {
       text-transform: uppercase;
-      font-family: Montserrat, sans-serif;
       font-size: 22px;
       color: #f4f4f4; }
     .about .about__paragraph p {
-      font-family: Montserrat, sans-serif;
       font-size: 16px;
       line-height: 32px;
       color: #f4f4f4; }
@@ -96,6 +94,44 @@ body, html {
         letter-spacing: 5px; }
 
 .resume {
+  height: auto;
+  padding-top: 70px;
   background-color: #fff; }
+  .resume .education h3 {
+    text-transform: uppercase;
+    color: #525252;
+    font-size: 23px;
+    padding-top: 67px;
+    font-weight: bold; }
+  .resume .resume__education .resume__tittle h2 {
+    color: #000000;
+    font-family: Montserrat, sans-serif;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: bold; }
+  .resume .graduation__highscholl {
+    text-transform: uppercase;
+    padding-top: 68px; }
+  .resume .graduation__university {
+    padding-top: 79px; }
+  .resume .skill .skill__desgin {
+    padding-top: 68px;
+    text-transform: uppercase; }
+
+.portfolio {
+  padding-top: 54px;
+  background-color: #171717; }
+
+.slider .carousel-inner .carousel-item {
+  position: relative; }
+  .slider .carousel-inner .carousel-item .carousel-caption {
+    position: absolute;
+    top: 60px; }
+    .slider .carousel-inner .carousel-item .carousel-caption h1 {
+      text-shadow: 0px 0px 10px #fff !important; }
+    .slider .carousel-inner .carousel-item .carousel-caption strong {
+      font-size: 24px; }
+    .slider .carousel-inner .carousel-item .carousel-caption img {
+      height: 150px; }
 
 /*# sourceMappingURL=style.css.map */
