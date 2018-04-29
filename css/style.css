@@ -15,7 +15,9 @@ body, html {
   width: 100%;
   height: 100%; }
   .navbar__bgcolor .navbar__menu {
-    background-color: transparent !important; }
+    background-color: transparent !important;
+    -webkit-transition: all 0.2s;
+    transition: all .2s; }
     .navbar__bgcolor .navbar__menu .navbar-brand {
       text-transform: uppercase;
       color: #e2e2e2;
@@ -44,6 +46,10 @@ body, html {
         transition: all .4s; }
       .navbar__bgcolor .navbar__menu ul li .nav-link:hover:before {
         width: 85%; }
+    .navbar__bgcolor .navbar__menu ul li .nav-link__color {
+      color: black; }
+  .navbar__bgcolor .navbar__create {
+    background-color: #2e414e !important; }
   .navbar__bgcolor .navbar__banner {
     padding-top: 242px;
     color: #e2e2e2;
@@ -181,6 +187,7 @@ body, html {
     font-size: 12px; }
 
 .footer {
+  margin-top: 10px;
   height: 50px;
   background-color: #303030; }
   .footer .footer__copywrite i {
@@ -189,5 +196,15 @@ body, html {
   .footer .footer__social i {
     color: #fff;
     line-height: 50px; }
+  .footer .getintouch__form button {
+    border-radius: 0px; }
+
+.backToTop {
+  position: fixed;
+  bottom: 0;
+  right: 10px;
+  text-shadow: 2px 1px 20px #fff;
+  display: none;
+  cursor: pointer; }
 
 /*# sourceMappingURL=style.css.map */

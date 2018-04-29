@@ -27,6 +27,9 @@ body,html {width:100%;height:100%;font-family: $font}
     height:100%;
     .navbar__menu{
         background-color:transparent !important;
+        -webkit-transition: all 0.2s;
+        transition: all .2s;
+      
         .navbar-brand{
             @include navbar_top();
             text-shadow: 0px 0px 10px #fefefe;
@@ -59,9 +62,15 @@ body,html {width:100%;height:100%;font-family: $font}
                      width:85%;
                  }
              }
+                .nav-link__color{
+                    color: black;
+                }
          }
      }
  }
+    .navbar__create{
+        background-color: rgb(46, 65, 78) !important;
+    }
  .navbar__banner{
     padding-top: 242px;
     color: #e2e2e2;
@@ -249,6 +258,7 @@ body,html {width:100%;height:100%;font-family: $font}
     }
 }
    .footer{
+        margin-top: 10px;
        height:50px;
         background-color: #303030;
        .footer__copywrite{
@@ -264,8 +274,21 @@ body,html {width:100%;height:100%;font-family: $font}
                 line-height: 50px;
            }
        }
+       .getintouch__form{
+           button{
+               border-radius: 0px;
+           }
+       }
        
     }
+.backToTop{
+    position: fixed;
+    bottom: 0;
+    right: 10px;
+    text-shadow: 2px 1px 20px #fff;
+    display:none;
+    cursor: pointer;
+}
 
 
 

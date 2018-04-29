@@ -8,6 +8,7 @@
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/_menu_mobile.css">
+		<link rel="stylesheet" href="css/animated.css">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
 		<!-- Load font -->
 		<link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=cyrillic,cyrillic-ext,latin-ext,vietnamese" rel="stylesheet">
@@ -16,9 +17,9 @@
 	<body>
 		<!-- Begin top__header -->
 		<div class="navbar__bgcolor"> 
-			<nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4 fixed-top navbar__menu"> <!-- Begin Navbar -->
+			<nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4 fixed-top navbar__menu wow fadeIn">
 				<div class="container">
-					<a class="navbar-brand" href="#">i'm thanhNc</a>
+					<a class="navbar-brand " href="#">i'm thanhNc</a>
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="navbar-toggler-icon"></span>
 					</button>
@@ -29,19 +30,19 @@
 								<span class="sr-only"></span></a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">home</a>
+								<a class="nav-link link1" href="#">home</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">about</a>
+								<a class="nav-link link2" href="#">about</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">resume</a>
+								<a class="nav-link link3" href="#">resume</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">portfolio</a>
+								<a class="nav-link link4" href="#">portfolio</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">contact</a>
+								<a class="nav-link link5" href="#">contact</a>
 							</li>
 						</ul>
 					</div>
@@ -68,7 +69,7 @@
 		<div class="about"> 
 			<div class="container">
 				<div class="row">
-					<div class="col-sm-4 about__avatar">
+					<div class="col-sm-4 about__avatar ">
 						<img src="images/profile.png" alt="profile image" class="img-fluid">
 					</div>
 					<div class="col-sm-8 about__paragraph text-sm-left text-center">
@@ -181,7 +182,7 @@
 						<h2 class="text-center">forforlio</h2>
 					</div>
 				</div>
-				<div class="row portfolio__image">
+				<div class="row portfolio__image WOW flash">
 					<div class="col-sm-4">
 						<img src="images/portfolio_01.png" alt="pportfolio_01" class="img-fluid">
 					</div>
@@ -290,8 +291,10 @@
 				</div>
 			</div>
 		</div> <!-- End Get in touch -->
-				
-		<div class="footer">
+		<!-- BackToTop -->
+		
+		<!--footer -->
+		<div class="footer"> 
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-6 footer__copywrite">
@@ -302,13 +305,22 @@
 						<a href=""><i class="fab fa-twitter fa-2x"></i></a>
 						<a href=""><i class="fab fa-instagram fa-2x"></i></a>
 					</div>
-				</div>
+				</div>	
 			</div>
-		</div>
+		</div> <!-- End Footer -->
+			
+		<div class="backToTop">
+			<div class="icon__arrow">
+				<i class="fas fa-caret-up fa-4x "></i>
+			</div>
+		</div> <!-- End backToTop -->
+			
 
 		</body>
 		<!-- Load library JS & Jquery Bootstrap -->
 		<script type="text/javascript" src="js/jquery.js" ></script>
+		<link rel="stylesheet" href="js/wow.min.js">
+		<script type="text/javascript" src="js/myjs.js" ></script>
 		<script src="js/bootstrap.min.js"></script>
-		<script type="text/javascript" src="js/mỵjs.js" ></script>
+		
 		</html>
