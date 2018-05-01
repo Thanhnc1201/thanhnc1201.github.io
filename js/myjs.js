@@ -34,7 +34,7 @@ $(function(){
 	$('.link5').on('click',function(){
 		$('html,body').animate({scrollTop:$('.getInTouch').offset().top},1000)
 	});
-	new WOW().init();
 
-})
 
+});
+ new WOW().init();

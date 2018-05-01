@@ -1,7 +1,7 @@
 *{margin:0;padding:0}
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&subset=cyrillic,cyrillic-ext,latin-ext,vietnamese');
 $font: Montserrat, sans-serif;
-body,html {width:100%;height:100%;font-family: $font}
+body,html {width:100%;height:100%;font-family: $font;}
 @mixin reset(){
     padding: 0;
     margin: 0;
@@ -86,11 +86,13 @@ body,html {width:100%;height:100%;font-family: $font}
         font-size: 13px;
     }
     .btn__hire{
+        text-shadow:1px 1px 20px #fff;
         margin-top: 39px;
         background-color: transparent;
         font-size: 13px;
         transition: all 0.9s;
         .btn__hire--me{
+            text-shadow:1px 1px 20px #fff;
             &:hover{
                 box-shadow: 10px 0px 50px #fefefe;
                 background-color: transparent !important;
