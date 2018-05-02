@@ -8,8 +8,8 @@
     .navbar__bgcolor .navbar__menu ul li .nav-link:first-child {
       border-top: none !important; }
     .navbar__bgcolor .navbar__menu ul li .nav-link:hover:before {
-      content: "";
-      background-color: #9e9b9b00; }
+      content: " ";
+      background-color: transparent; }
   .navbar__bgcolor .about {
     height: 900px; }
     .navbar__bgcolor .about .about__avatar img {

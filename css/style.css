@@ -62,15 +62,15 @@ body, html {
     .navbar__bgcolor .navbar__banner strong {
       font-size: 13px; }
     .navbar__bgcolor .navbar__banner .btn__hire {
-      text-shadow: 1px 1px 20px #fff;
       margin-top: 39px;
       background-color: transparent;
       font-size: 13px;
       transition: all 0.9s; }
       .navbar__bgcolor .navbar__banner .btn__hire .btn__hire--me {
-        text-shadow: 1px 1px 20px #fff; }
+        font-weight: 400;
+        color: #fff;
+        box-shadow: 10px 0px 50px #fefefe; }
         .navbar__bgcolor .navbar__banner .btn__hire .btn__hire--me:hover {
-          box-shadow: 10px 0px 50px #fefefe;
           background-color: transparent !important;
           font-weight: 700; }
 
