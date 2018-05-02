@@ -7,9 +7,9 @@
     border: 1px solid #2d1f1f9e; }
     .navbar__bgcolor .navbar__menu ul li .nav-link:first-child {
       border-top: none !important; }
-    .navbar__bgcolor .navbar__menu ul li .nav-link:hover:before {
-      content: " ";
-      background-color: transparent; }
+    .navbar__bgcolor .navbar__menu ul li .nav-link:before {
+      display: none;
+      visibility: hidden; }
   .navbar__bgcolor .about {
     height: 900px; }
     .navbar__bgcolor .about .about__avatar img {
